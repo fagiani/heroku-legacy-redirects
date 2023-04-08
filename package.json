@@ -7,9 +7,6 @@
   "author": "Paulo Fagiani",
   "license": "MIT",
   "scripts": {
-    "build": "vercel build",
-    "dev": "vercel dev",
-    "start": "vercel start",
     "deploy": "vercel deploy --prod"
   },
   "devDependencies": {
