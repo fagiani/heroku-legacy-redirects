@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/heroku-16/:match*",
+      "destination": "https://heroku-buildpack-python.s3.us-east-1.amazonaws.com/archive/heroku-16/:match*"
+    },
+    {
+      "source": "/common/:match*",
+      "destination": "https://heroku-buildpack-python.s3.us-east-1.amazonaws.com/common/:match*"
+    }
+  ]
+}

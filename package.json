@@ -1,0 +1,18 @@
+{
+  "name": "heroku-legacy-redirects",
+  "version": "1.0.0",
+  "description": "Redirects URLs to keep heroku legacy buildpacks working",
+  "main": "index.js",
+  "repository": "https://github.com/fagiani/heroku-legacy-redirects",
+  "author": "Paulo Fagiani",
+  "license": "MIT",
+  "scripts": {
+    "build": "vercel build",
+    "dev": "vercel dev",
+    "start": "vercel start",
+    "deploy": "vercel deploy --prod"
+  },
+  "devDependencies": {
+    "vercel": "^28.18.4"
+  }
+}
